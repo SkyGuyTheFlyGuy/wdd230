@@ -20,3 +20,20 @@ const lastModifiedString = lastModified.toLocaleString();
 
 // Display the last modified date in the <p> element
 lastModifiedParagraph.textContent = lastModifiedString;
+
+// Dark mode
+
+const modeButton = document.querySelector("#mode");
+const main = document.querySelector("main");
+
+modeButton.addEventListener("click", () => {
+	if (modeButton.textContent.includes("🕶️")) {
+		main.style.background = "#000";
+		main.style.color = "blue";
+		modeButton.textContent = "🔆";
+	} else {
+		main.style.background = "#eee";
+		main.style.color = "#000";
+    modeButton.textContent = "🕶️";
+  }
+});
