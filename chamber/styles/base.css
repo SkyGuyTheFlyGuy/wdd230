@@ -9,10 +9,10 @@
   --heading-font: "Garamond";
   --paragraph-font: Helvetica;
 
-  --headline-color-on-white: #46351D;  /* headlines on a white background */ 
-  --headline-color-on-color: #46351D; /* headlines on a colored background */ 
+  --headline-color-on-white: #000;  /* headlines on a white background */ 
+  --headline-color-on-color: #000; /* headlines on a colored background */ 
   --paragraph-color-on-white: #BFD2BF; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #46351D; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #000; /* paragraph text on a colored background */ 
   --text-background-color: #BFD2BF;
   --nav-link-color: #646F4B;
   --nav-background-color: #7BB2D9;
