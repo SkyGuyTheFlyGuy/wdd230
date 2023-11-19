@@ -220,3 +220,6 @@ div footer {
   padding: 10px;
   border-radius: 10px;
 }
+.center:hover {
+  box-shadow: 0 0 50px #333;
+}
