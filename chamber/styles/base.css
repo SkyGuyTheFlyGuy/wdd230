@@ -185,23 +185,25 @@ footer {
 }
 div header {
   grid-area: header;
-  background-color: #fed330;
+  background-color: var(--primary-color);
   padding: 20px;
 }
 div article {
   grid-area: content;
-  background-color: #20bf6b;
+  background-color: var(--primary-color);
   padding: 20px;
+  border-radius: 10px;
 }
 div aside {
   grid-area: sidebar;
-  background-color: #45aaf2;
+  background-color: var(--primary-color);
   padding: 20px;
+  border-radius: 10px;
 }
 div footer {
   padding: 20px;
   grid-area: footer;
-  background-color: #fd9644;
+  background-color: var(--primary-color);
 }
 .wrapper {
   display: grid;
