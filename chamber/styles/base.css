@@ -196,6 +196,7 @@ div article {
 div aside {
   grid-area: sidebar;
   background-color: #45aaf2;
+  padding: 20px;
 }
 div footer {
   padding: 20px;
@@ -210,4 +211,12 @@ div footer {
     "header  header"
     "sidebar content"
     "footer  footer";
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
 }
