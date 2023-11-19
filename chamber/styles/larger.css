@@ -24,6 +24,9 @@
 		display: block;
 		flex: 1 1 100%;
 	}
+    .center:hover {
+        box-shadow: 0 0 50px #333;
+    }
 }
 @media (max-width: 640px) {
     .wrapper {
