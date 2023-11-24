@@ -41,3 +41,12 @@ if (numVisits !== 0) {
 numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
+
+// Get timestamp
+
+// Get current date and time
+var now = new Date();
+var datetime = now.toLocaleString();
+
+// Insert date and time into HTML
+document.getElementById("datetime").innerHTML = datetime;
