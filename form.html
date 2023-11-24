@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <h1>Form</h1>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="https://skyguytheflyguy.github.io/wdd230/index.html">Home</a></li>
+            <li><a href="https://skyguytheflyguy.github.io/wdd230/chamber/index.html">Chamber</a></li>
+            <li><a href="https://skyguytheflyguy.github.io/wdd230/week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="formmessage"></div>
+        <h1>Form Build Activity</h1>
+        <form method="get" action="record.html">
+            <fieldset>
+                <label class="top">Username*: <input type="text" name="uname" required></label>
+                <label class="top" for="pass">Password*: <input type="password" id="pass" name="password" required pattern="[A-Za-z0-9]{8,}"></label>
+                <label class="top" for="pass2">Confirm Password*: <input type="password" id="pass2" name="password2" required pattern="[A-Za-z0-9]{8,}"></label>
+                <label class="top">Email*: <input type="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
+                <label for="r">INPUT: </label>
+                    <div id="rangevalue">0</div>
+                    <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+	                    <option value="0">0</option>
+	                    <option value="1">1</option>
+	                    <option value="2">2</option>
+	                    <option value="3">3</option>
+	                    <option value="4">4</option>
+	                    <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+            </fieldset>
+            <input type="submit" value="Send My Form" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Skyler Tower | USA</p>
+        <p>For WDD 230 Fall Semester</p>
+        <p>Last Modification: </p><p id="lastModified"></p>
+        <p>Contact Me: skylertower@yahoo.com</p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
