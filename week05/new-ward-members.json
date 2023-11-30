@@ -1,0 +1,23 @@
+{
+    "family_name": "Johnson",
+    "date_moved_in": "2020-01-15",
+    "number_of_people": 3,
+    "visited": false,
+    "family_members": [
+        {
+            "name": "Jack Johnson",
+            "gender": "Male",
+            "birthday": "1970-05-22"
+        },
+        {
+            "name": "Sarah Johnson",
+            "gender": "Female",
+            "birthday": "1972-04-11"
+        },
+        {
+            "name": "Michael Johnson",
+            "gender": "Male",
+            "birthday": "2002-11-08"
+        }
+    ]
+}
