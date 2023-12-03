@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name": "Snake Bite Restaurant",
+            "address": "401 Park Ave Idaho Falls ID 83402",
+            "phone": "(208) 525-2522",
+            "website": "snakebiterestaurant.com",
+            "image": "snakebite.webp",
+            "membership_level": "Gold"
+        },
+        {
+            "name": "Museum of Idaho",
+            "address": "200 NE Ave Idaho Falls ID 83402",
+            "phone": "(208) 522-1400",
+            "website": "museumofidaho.org",
+            "image": "museum.webp",
+            "membership_level": "Silver"
+        },
+        {
+            "name": "Cabelas",
+            "address": "3693 S 25th E Ammon ID 83406",
+            "phone": "(208) 932-2900",
+            "website": "cabelas.com",
+            "image": "cabelas.webp",
+            "membership_level": "Bronze"
+        },
+        {
+            "name": "Sweeto Burrito",
+            "address": "2090 E 17th St Idaho Falls ID 83404",
+            "phone": "(208) 346-8295",
+            "website": "sweetoburrito.com",
+            "image": "sweeto.webp",
+            "membership_level": "Platinum"
+        },
+        {
+            "name": "O'Reilly Auto Parts",
+            "address": "455 N Woodruff Ave Idaho Falls Id 83401",
+            "phone": "(208) 524-6660",
+            "website": "oreillyauto.com",
+            "image": "oreilly.webp",
+            "membership_level": "Gold"
+        },
+        {
+            "name": "Carters",
+            "address": "2037 S 25th E Ammon ID 83406",
+            "phone": "(208) 522-9940",
+            "website": "carters.com",
+            "image": "carters.webp",
+            "membership_level": "Silver"
+        },
+        {
+            "name": "Target",
+            "address": "2171 S 25th E Idaho Falls 83406",
+            "phone": "(208) 535-2285",
+            "website": "target.com",
+            "image": "target.webp",
+            "membership_level": "Bronze"
+        }
+    ]
+}

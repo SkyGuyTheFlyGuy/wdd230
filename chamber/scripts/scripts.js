@@ -2,8 +2,6 @@ const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
 
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
-
 gridbutton.addEventListener("click", () => {
 	// example using arrow function
 	display.classList.add("grid");
@@ -16,6 +14,27 @@ function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");
 }
+
+// Fetch JSON data
+fetch('members.json')
+  .then(response => response.json())
+  .then(data => {
+    const companyList = document.getElementById('company-list');
+
+    // Iterate through each company in the JSON file and create HTML elements to display the information
+    data.companies.forEach(company => {
+      const companyDiv = document.createElement('div');
+      companyDiv.innerHTML = `
+	    <img src="${company.image}" alt="${company.name} logo">
+        <h2>${company.name}</h2>
+        <p>Address: ${company.address}</p>
+        <p>Phone: ${company.phone}</p>
+        <p>Website: <a href="${company.website}" target="_blank">${company.website}</a></p>
+        <p>Membership Level: ${company.membership_level}</p>
+      `;
+      companyList.appendChild(companyDiv);
+    });
+  });
 
 // Script to output the current year
 
