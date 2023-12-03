@@ -1,6 +1,6 @@
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
+const display = document.getElementById('company-list');
 
 gridbutton.addEventListener("click", () => {
 	// example using arrow function
@@ -28,12 +28,14 @@ fetch(jsonUrl)
     data.companies.forEach(company => {
       const companyDiv = document.createElement('div');
       companyDiv.innerHTML = `
+	    <img src="images/${company.image}" alt="${company.name} logo">
         <h2>${company.name}</h2>
         <p>Address: ${company.address}</p>
         <p>Phone: ${company.phone}</p>
         <p>Website: <a href="${company.website}" target="_blank">${company.website}</a></p>
-        <img src="${company.image}" alt="${company.name} logo">
         <p>Membership Level: ${company.membership_level}</p>
+		<br>
+		<hr>
       `;
       companyList.appendChild(companyDiv);
     });
