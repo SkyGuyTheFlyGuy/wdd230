@@ -1,5 +1,5 @@
 // Define the URL of the JSON file
-const jsonUrl = 'companies.json';
+const jsonUrl = 'https://skyguytheflyguy.github.io/wdd230/testpage/data/companies.json';
 
 // Fetch the JSON data from the defined URL
 fetch(jsonUrl)
